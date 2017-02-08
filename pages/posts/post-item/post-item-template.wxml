@@ -1,0 +1,18 @@
+<template name="postItem">
+  <view class="post-container">
+    <view class="post-author-container">
+      <image class="post-author-pic" src="{{item.authorPic}}"></image>
+      <text class="post-author-date">{{item.authorDate}}</text>
+    </view>
+    <view class="post-content-container">
+      <image class="post-content-pic" src="{{item.contentPic}}"></image>
+      <text class="post-content">{{item.contentText}}</text>
+    </view>
+    <view class="post-like-container">
+      <image class="post-like-pic" src="{{item.likePic}}"></image>
+      <text class="post-like-count">{{item.likeCount}}</text>
+      <image class="post-like-pic" src="{{item.commentPic}}"></image>
+      <text class="post-like-count">{{item.likeCount1}}</text>
+    </view>
+  </view>
+</template>
