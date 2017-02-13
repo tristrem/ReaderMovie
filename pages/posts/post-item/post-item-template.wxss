@@ -1,21 +1,25 @@
 
-
+.post-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 .post-author-container{
     height: 40px;
-    line-height: 40px;
-    
+    line-height: 40px;   
     margin-bottom: 5px;
     border-top: 1px solid #ededed;
 }
 .post-author-pic{
-    width: 24px;
-    height: 24px;
+    width: 30rpx;
+    height: 30rpx;
     margin-left: 10rpx;
     vertical-align: middle;    
 }
 .post-author-date{
     font-size: 14px;
     margin-left: 10rpx;
+    vertical-align: middle;  
 }
 /*.post-content-container{
     margin-bottom: 5px;
